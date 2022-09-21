@@ -1,0 +1,39 @@
+.aside {
+  min-height: 100vh;
+  border: 1px solid white;
+  background-color: white;
+  width: 210px;
+  position: fixed;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.link {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.link:hover {
+  background-color: var(--primary-100);
+}
+
+.active {
+  background-color: var(--primary-100);
+  border-left: 5px solid var(--primary-500);
+}
+
+.logout {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  border-top: 5px solid var(--primary-500);
+  color: var(--primary-500);
+}
+
+.logout:hover {
+  background-color: var(--primary-100);
+}
